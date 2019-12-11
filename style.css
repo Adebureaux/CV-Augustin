@@ -10,7 +10,7 @@ body {
 #page aside {
     width: 30%;
     background-color: #7451eb;
-    color: #ffffff;
+    color: white;
 }
 
 #page aside img {
@@ -28,6 +28,14 @@ body {
     padding: 5px;
 }
 
+#page aside h4 {
+    background-color: white;
+    color: #7451eb;
+    text-align: center;
+    padding: 5px;
+    margin-top: 10%;
+}
+
 #page p.content {
     margin-left: 10%;
     font-size: 1.2em;
@@ -35,4 +43,26 @@ body {
 
 #page main {
     width: 70%;
+}
+
+#page main h1 {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 5px;
+}
+
+#page main h2 {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 5px;
+}
+
+#page main h3 {
+    background-color: white;
+    margin-left: 10%;
+    margin-top: 120px;
+    color: black;
+    padding: 5px;
 }
