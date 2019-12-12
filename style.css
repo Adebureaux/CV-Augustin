@@ -1,44 +1,61 @@
 body {
+    font-family:arial, sans-serif;
     padding: 0;
     margin: 0;
 }
+
+.link_email {
+    color: white;
+}
+
+.link_email:hover span {
+    display: none;
+}
+
+.link_email:hover:after {
+  content: attr(title);
+}
+
 
 #page {
     display: flex;
 }
 
+#page p.content_aside {
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 1.2em;
+  color: white;
+  text-align: justify;
+}
+
 #page aside {
     width: 30%;
-    background-color: #7451eb;
+    background-color: #234fc1;
     color: white;
 }
 
 #page aside img {
     border-radius: 50%;
-    width: 50%;
+    width: 55%;
     margin-left: auto;
     margin-right: auto;
     display: block;
 }
 
 #page aside h3 {
-    background-color: white;
-    color: #7451eb;
+    background-color: #404040;
+    color: white;
     text-align: center;
-    padding: 5px;
-}
-
-#page aside h4 {
-    background-color: white;
-    color: #7451eb;
-    text-align: center;
-    padding: 5px;
     margin-top: 10%;
+    padding: 5px;
 }
 
-#page p.content {
-    margin-left: 10%;
+#page p.content_main {
+    margin-left: 5%;
+    margin-right: 10%;
     font-size: 1.2em;
+    text-align: justify;
 }
 
 #page main {
@@ -48,21 +65,25 @@ body {
 #page main h1 {
     background-color: white;
     color: black;
-    text-align: center;
+    font-size: 3em;
+    margin-top: 8%;
+    margin-left: 5%;
     padding: 5px;
 }
 
 #page main h2 {
     background-color: white;
     color: black;
-    text-align: center;
+    margin-left: 5%;
     padding: 5px;
 }
 
 #page main h3 {
     background-color: white;
-    margin-left: 10%;
-    margin-top: 120px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
     color: black;
+    text-align: justify;
     padding: 5px;
 }
