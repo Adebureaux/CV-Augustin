@@ -16,18 +16,8 @@ body {
   content: attr(title);
 }
 
-
 #page {
     display: flex;
-}
-
-#page p.content_aside {
-
-  margin-left: 5%;
-  margin-right: 5%;
-  font-size: 1.2em;
-  color: white;
-  text-align: justify;
 }
 
 #page aside {
@@ -52,12 +42,14 @@ body {
     padding: 5px;
 }
 
-#page p.content_main {
-    margin-left: 5%;
-    margin-right: 10%;
-    font-size: 1.2em;
-    text-align: justify;
+#page p.content_aside {
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 1.2em;
+  color: white;
+  text-align: justify;
 }
+
 
 #page main {
     width: 70%;
@@ -85,6 +77,12 @@ body {
     margin-right: 5%;
     margin-top: 5%;
     color: black;
-    text-align: justify;
     padding: 5px;
+}
+
+#page p.content_main {
+    margin-left: 5%;
+    margin-right: 10%;
+    font-size: 1.2em;
+    text-align: justify;
 }
