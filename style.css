@@ -80,9 +80,18 @@ body {
     padding: 5px;
 }
 
-#page p.content_main {
-    margin-left: 5%;
-    margin-right: 10%;
+#page .content_left {
+    margin-left: 10%;
+    margin-right: 60%;
     font-size: 1.2em;
     text-align: justify;
+}
+
+#page .content_right {
+    margin-left: 30%;
+    margin-right: 15%;
+    bottom: 4%;
+    font-size: 1.2em;
+    text-align: justify;
+    position: relative;
 }
