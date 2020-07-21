@@ -64,13 +64,6 @@ body {
     padding: 5px;
 }
 
-#page main h2 {
-    background-color: white;
-    color: black;
-    margin-left: 5%;
-    padding: 5px;
-}
-
 #page main h3 {
     background-color: white;
     margin-left: 5%;
@@ -87,7 +80,6 @@ body {
 	flex-direction: row;
 }
 
-
 #page main .content_left {
 	width: 40%;
 	margin-left: 4%;
@@ -97,5 +89,21 @@ body {
 #page main .content_right {
 	width: 65%;
 	margin-left: 3%;
+	font-size: 1.2em;
+}
+
+#page main .contenant {
+	position: relative;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 5%;
+	padding: 5px;
+}
+
+#page main .texte_centrer {
+	position: absolute;
+	top: 20px;
+	left: 80px;
+	font-weight: bold;
 	font-size: 1.2em;
 }
